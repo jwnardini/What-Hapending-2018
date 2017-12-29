@@ -110,13 +110,20 @@ bitly : {}
 
                 <a href="http://www.facebook.com/whathappending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/facebookheader.svg" class="header-icon" width="80px"></a>
                 
-                <a href="https://www.instagram.com/whathappending/" target="_blank"><img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" class="header-icon" width="80px"></a><br>
+                <a href="https://www.instagram.com/whathappending/" target="_blank"><img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" class="header-icon" width="80px"></a>
+
+                <a href="mailto:whathappending@gmail.com" target="_blank"><img src="https://fthmb.tqn.com/KJNh_xcBzA3itHJnSGEM16POGGQ=/768x0/filters:no_upscale()/768px-Email_Shiny_Icon.svg-57fd8b3a3df78c690f82ca98.png" class="header-icon" width="80px"></a>        
+                
+                <br>
 
                 <a href="https://itunes.apple.com/us/podcast/what-happending/id1074483687?mt=2" target="_blank"><img src="http://www.whathappending.com/sites/default/files/itunesheader.png" class="header-icon" width="80px"></a>
 
                 <a href="https://play.google.com/music/m/Iwmaptwmuz7o2rsos4ofpj4p3wq?t=What_Happending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/googleplayheader.png" class="header-icon" width="80px"></a>
 
-                <a href="http://www.stitcher.com/podcast/what-happending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/stitcherheader.png" class="header-icon" width="80px"></a>        
+                <a href="http://www.stitcher.com/podcast/what-happending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/stitcherheader.png" class="header-icon" width="80px"></a>
+
+                <a href="https://open.spotify.com/show/7nnpTeIDxe0yz54FFecijb" target="_blank"><img src="https://seeklogo.com/images/S/spotify-2015-logo-560E071CB7-seeklogo.com.png" class="header-icon" width="80px"></a>        
+
             </div>                
           </div>
           <div class="subscribe-links-desktop">
@@ -143,6 +150,9 @@ bitly : {}
                 <div class="social-link-ipad"><a href="http://www.facebook.com/whathappending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/facebookheader.svg" width="40px"></a></div>
                 
                 <div class="social-link-ipad"><a href="https://www.instagram.com/whathappending/" target="_blank"><img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" width="40px"></a></div>
+
+                <div class="social-link-ipad"><a href="mailto:whathappending@gmail.com" target="_blank"><img src="https://fthmb.tqn.com/KJNh_xcBzA3itHJnSGEM16POGGQ=/768x0/filters:no_upscale()/768px-Email_Shiny_Icon.svg-57fd8b3a3df78c690f82ca98.png" width="40px"></a></div>
+
                 <div class="hidden-break"><br></div>
 
                 <div class="social-link-ipad"><a href="https://itunes.apple.com/us/podcast/what-happending/id1074483687?mt=2" target="_blank"><img src="http://www.whathappending.com/sites/default/files/itunesheader.png" width="40px"></a></div>
@@ -150,6 +160,8 @@ bitly : {}
                 <div class="social-link-ipad"><a href="https://play.google.com/music/m/Iwmaptwmuz7o2rsos4ofpj4p3wq?t=What_Happending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/googleplayheader.png" width="40px"></a></div>
                 
                 <div class="social-link-ipad"><a href="http://www.stitcher.com/podcast/what-happending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/stitcherheader.png" width="40px"></a></div>
+
+                <div class="social-link-ipad"><a href="https://open.spotify.com/show/7nnpTeIDxe0yz54FFecijb" target="_blank"><img src="https://seeklogo.com/images/S/spotify-2015-logo-560E071CB7-seeklogo.com.png" width="40px"></a></div>
                 </div>
                 <div class="hidden-break"><br></div>
 
