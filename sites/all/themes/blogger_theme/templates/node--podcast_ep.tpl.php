@@ -62,8 +62,9 @@ $edit = $fields['edit_node']->content;
 				<a class="itunes-link" href="<?php print $itunes ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/itunes.svg";?>" class="itunes-logo"></a>
 				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/googleplaylogo.svg";?>" class="googleplay-logo"></a>
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
-<p>hello</p>
+
 				</p>
+        <p>ep</p>
 			</div>
 		</figcaption>	
 	</figure>

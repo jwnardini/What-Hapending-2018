@@ -114,6 +114,7 @@ $directdownload = strip_tags(render($content['field_directdownload_link']));
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
 
 				</p>
+        <p>episode</p>
 			</div>
 		</figcaption>	
 	</figure>
