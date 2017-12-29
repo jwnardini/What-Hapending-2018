@@ -64,7 +64,6 @@ $edit = $fields['edit_node']->content;
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
 
 				</p>
-        <p>is this is?</p>
 			</div>
 		</figcaption>	
 	</figure>
