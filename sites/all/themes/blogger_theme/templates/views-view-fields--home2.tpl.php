@@ -70,7 +70,7 @@ $edit = $fields['edit_node']->content;
 	</figure>
 	<div class="ep-info">
 		<?php print $desc; ?>
-		<p class="ep-tags"><?php print $tags; ?></p>
+		
 		<p class="publish-date">Published: <?php print $date; ?></p>
 		<?php print $edit; ?>
 	</div>
@@ -115,7 +115,5 @@ $edit = $fields['edit_node']->content;
 				</a>
 			</div>			
 		</div>
-		<p class="tags-label">Tags:</p>
-		<div class="tags"><?php print $tags; ?></div>
 	</div>
 </div>
