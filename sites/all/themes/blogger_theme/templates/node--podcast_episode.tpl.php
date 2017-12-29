@@ -113,14 +113,14 @@ $spotify = strip_tags(render($content['field_spotfiy']));
 				<a class="itunes-link" href="<?php print $itunes ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/itunes.svg";?>" class="itunes-logo"></a>
 				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/google-logo.png";?>" class="googleplay-logo"></a>
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
-       			 <a class="spotify-link" id="" href="<?php print $spotify ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/spotify-logo.png";?>" class="spotify-logo"></a>
+       			 <a class="spotify-link"  href="<?php print $spotify ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/spotify-logo.png";?>" class="spotify-logo"></a>
 				</p>
 			</div>
 		</figcaption>	
 	</figure>
 	<div class="ep-info">
 		<?php print $desc; ?>
-		<p class="ep-tags">Tags: <?php print $tags; ?></p>
+		
 		<p class="publish-date">Published: <?php print $date; ?></p>
 	</div>
 	<div class="views-player"><?php print $player; ?></div>
@@ -163,6 +163,5 @@ $spotify = strip_tags(render($content['field_spotfiy']));
         </a>
       </div>
 		</div>
-		<div class="tags"><?php print $tags; ?></div>
 	</div>
 </div>
