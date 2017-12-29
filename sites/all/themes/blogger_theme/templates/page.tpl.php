@@ -140,8 +140,8 @@ bitly : {}
           <!-- IPAD HEADER DIV -->
 
           <div class="blog-description-ipad">
-            <div class="home-ipad"><img style="vertical-align:middle"  src="<?php print $base_path . $theme_path . "/images/what-happending-logo-big.png";?>">
-            </div>
+            <div class="home-ipad"><a href="/"><img style="vertical-align:middle"  src="<?php print $base_path . $theme_path . "/images/what-happending-logo-big.png";?>">
+            </a></div>
             <div class="social-links-ipad">
                 <p class="slogan-final">The podcast where we watch only the pilot and series finale of random TV shows</p>
                 <div class="links-left">
