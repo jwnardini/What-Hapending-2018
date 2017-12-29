@@ -103,7 +103,7 @@ bitly : {}
             <!-- FULL SCREEN HEADER DIV -->
 
           <div class="blog-description-fullscreen">
-            <div class="home-fullscreen"><img style="vertical-align:middle"  src="<?php print $base_path . $theme_path . "/images/wh-logo.jpg";?>"></div>
+            <div class="home-fullscreen"><a href="/"><img style="vertical-align:middle"  src="<?php print $base_path . $theme_path . "/images/wh-logo.jpg";?>"></a></div>
             <div class="social-links-fullscreen">
                 <p class="slogan-final">The podcast where we watch only the pilot and series finale of random TV shows</p>
                 <a href="http://www.twitter.com/whathappending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/twitterheader.png" class="header-icon" width="80px"></a>
