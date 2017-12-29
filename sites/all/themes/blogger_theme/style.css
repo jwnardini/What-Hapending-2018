@@ -1486,6 +1486,9 @@ figure.effect-lily:hover p {
     padding-bottom: 10px;
     font-size:30px;
   }
+    .download-icons-wrap {
+    min-height: 70px !important;
+  }
 }
 
 
