@@ -143,7 +143,7 @@ bitly : {}
             <div class="home-ipad"><a href="/"><img style="vertical-align:middle"  src="<?php print $base_path . $theme_path . "/images/what-happending-logo-big.png";?>">
             </a></div>
             <div class="social-links-ipad">
-                <p class="slogan-final">The podcast where we watch only <span class="hidden-break"><br></span> the pilot and series finale of random TV shows</p>
+                <p class="slogan-final">The podcast where we watch only <span class="hidden-break"><br></span> the pilot and series finale <span class="hidden-break"><br></span> of random TV shows</p>
                 <div class="links-left">
                 <div class="social-link-ipad"><a href="http://www.twitter.com/whathappending" target="_blank"><img src="http://www.whathappending.com/sites/default/files/twitterheader.png" width="40px"></a></div>
 
