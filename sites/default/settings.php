@@ -215,7 +215,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'whappend_drpl1',
+      'database' => 'wh_local',
       'username' => 'whappend_drpl1',
       'password' => 'stCw8fLK28CmVzLz',
       'host' => 'localhost',

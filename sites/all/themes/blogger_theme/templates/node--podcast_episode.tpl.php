@@ -90,6 +90,7 @@ $itunes = strip_tags(render($content['field_itunes_link']));
 $googleplay = strip_tags(render($content['field_googleplay_link']));
 $stitcher = strip_tags(render($content['field_stitcher_link']));
 $directdownload = strip_tags(render($content['field_directdownload_link']));
+$spotify = strip_tags(render($content['field_spotfiy']));
 // $date = $content['created'];
 // $edit = $content['edit_node'];
 
@@ -110,9 +111,9 @@ $directdownload = strip_tags(render($content['field_directdownload_link']));
 				<p>
 				<a class="directdownload-link" href="<?php print $directdownload ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/directdownload.png";?>" class="directdownload-logo"></a>
 				<a class="itunes-link" href="<?php print $itunes ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/itunes.svg";?>" class="itunes-logo"></a>
-				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/googleplaylogo.svg";?>" class="googleplay-logo"></a>
+				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/google-logo.png";?>" class="googleplay-logo"></a>
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
-
+       			 <a class="spotify-link" id="" href="<?php print $spotify ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/spotify-logo.png";?>" class="spotify-logo"></a>
 				</p>
 			</div>
 		</figcaption>	
@@ -138,24 +139,29 @@ $directdownload = strip_tags(render($content['field_directdownload_link']));
 		<div class="download-icons-wrap">
 			<div class="directdownload-mobile mobile-icon">
 				<a class="directdownload-link" href="<?php print $directdownload ?>" target="_blank">
-					<img src="<?php print "sites/default/files/directdownload-mobile.png";?>" class="directdownload-logo" width="70px">
+					<img src="<?php print  $base_path . $theme_path . "/images/directdownload-mobile.png";?>" class="directdownload-logo" width="70px">
 				</a>
 			</div>
 			<div class="itunes-mobile mobile-icon">
 				<a class="itunes-link" href="<?php print $itunes ?>" target="_blank">
-					<img src="<?php print "sites/default/files/itunesheader.png";?>" class="itunes-logo" width="70px">
+					<img src="<?php print  $base_path . $theme_path . "/images/itunesheader.png";?>" class="itunes-logo" width="70px">
 				</a>
 			</div>
 			<div class="googleplay-mobile mobile-icon">
 				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank">
-					<img src="<?php print "sites/default/files/googleplayheader.png";?>" class="googleplay-logo" width="70px">
+					<img src="<?php print  $base_path . $theme_path . "/images/googleplayheader.png";?>" class="googleplay-logo" width="70px">
 				</a>
 			</div>
 			<div class="stitcher-mobile mobile-icon">
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank">
-					<img src="<?php print "sites/default/files/stitcherheader.png";?>" class="stitcher-logo" width="70px">
+					<img src="<? print  $base_path . $theme_path . "/images/stitcherheader.png";?>" class="stitcher-logo" width="70px">
 				</a>
 			</div>
+      <div class="spotify-mobile mobile-icon">
+        <a class="spotify-link" href="<?php print $spotify ?>" target="_blank">
+          <img src="<?php print  $base_path . $theme_path . "/images/spotify-mobile.png";?>" class="stitcher-logo" width="70px">
+        </a>
+      </div>
 		</div>
 		<div class="tags"><?php print $tags; ?></div>
 	</div>

@@ -41,6 +41,7 @@ $itunes = $fields['field_itunes_link']->content;
 $googleplay = $fields['field_googleplay_link']->content;
 $stitcher = $fields['field_stitcher_link']->content;
 $directdownload = $fields['field_directdownload_link']->content;
+$spotify = $fields['field_spotfiy']->content;
 $date = $fields['created']->content;
 $edit = $fields['edit_node']->content;
 
@@ -60,9 +61,9 @@ $edit = $fields['edit_node']->content;
 				<p>
 				<a class="directdownload-link" href="<?php print $directdownload ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/directdownload.png";?>" class="directdownload-logo"></a>
 				<a class="itunes-link" href="<?php print $itunes ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/itunes.svg";?>" class="itunes-logo"></a>
-				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/googleplaylogo.svg";?>" class="googleplay-logo"></a>
+				<a class="googleplay-link" href="<?php print $googleplay ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/google-logo.png";?>" class="googleplay-logo"></a>
 				<a class="stitcher-link" href="<?php print $stitcher ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/stitcherlogo.png";?>" class="stitcher-logo"></a>
-
+				<a class="spotify-link" href="<?php print $spotify ?>" target="_blank"><img src="<?php print $base_path . $theme_path . "/images/spotify-logo.png";?>" class="spotify-logo"></a>
 				</p>
 			</div>
 		</figcaption>	
@@ -108,6 +109,11 @@ $edit = $fields['edit_node']->content;
 					<img src="<?php print "sites/default/files/stitcherheader.png";?>" class="stitcher-logo" width="70px">
 				</a>
 			</div>
+			<div class="spotify-mobile mobile-icon">
+				<a class="spotify-link" href="<?php print $spotify ?>" target="_blank">
+					<img src="<?php print $base_path . $theme_path . "/images/spotify-mobile.png";?>" class="spotify-logo" width="70px">
+				</a>
+			</div>			
 		</div>
 		<p class="tags-label">Tags:</p>
 		<div class="tags"><?php print $tags; ?></div>
