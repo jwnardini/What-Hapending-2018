@@ -367,7 +367,7 @@ a { outline: 0 }
 #site-navigation #main-menu > ul li { display: block; float: left; height: 45px; line-height: 60px; font-size: 20px}
 #site-navigation #main-menu > ul a { padding: 0 20px; color: #CCC; font-weight: 400; text-decoration: none; text-align: left; cursor: pointer; }
 @media screen and (min-width:768px) {
-#site-navigation #main-menu > ul a { font-size: 88% !important;}
+#site-navigation #main-menu > ul a { font-size: 80% !important;}
 }
 #site-navigation #main-menu > ul > li > a:hover,
 #site-navigation #main-menu > ul > li.sfHover > a { color: #fff; }
